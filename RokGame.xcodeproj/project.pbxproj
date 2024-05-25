@@ -14,6 +14,12 @@
 		8710CF942C00D44B00CA9F6B /* RokGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CF932C00D44B00CA9F6B /* RokGameTests.swift */; };
 		8710CF9E2C00D44B00CA9F6B /* RokGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CF9D2C00D44B00CA9F6B /* RokGameUITests.swift */; };
 		8710CFA02C00D44B00CA9F6B /* RokGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CF9F2C00D44B00CA9F6B /* RokGameUITestsLaunchTests.swift */; };
+		8710CFB62C00FD1900CA9F6B /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFB52C00FD1900CA9F6B /* Splash.swift */; };
+		8710CFB82C00FDB200CA9F6B /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFB72C00FDB200CA9F6B /* Onboarding.swift */; };
+		8710CFBB2C01A14000CA9F6B /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFBA2C01A14000CA9F6B /* Background.swift */; };
+		8710CFBF2C01B88B00CA9F6B /* ViewGame2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFBE2C01B88B00CA9F6B /* ViewGame2.swift */; };
+		8710CFC22C01B8B700CA9F6B /* ViewGame3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFC12C01B8B700CA9F6B /* ViewGame3.swift */; };
+		8710CFC42C01C9F500CA9F6B /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFC32C01C9F500CA9F6B /* AnswerButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		8710CF992C00D44B00CA9F6B /* RokGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RokGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8710CF9D2C00D44B00CA9F6B /* RokGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokGameUITests.swift; sourceTree = "<group>"; };
 		8710CF9F2C00D44B00CA9F6B /* RokGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8710CFB52C00FD1900CA9F6B /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		8710CFB72C00FDB200CA9F6B /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		8710CFBA2C01A14000CA9F6B /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		8710CFBE2C01B88B00CA9F6B /* ViewGame2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGame2.swift; sourceTree = "<group>"; };
+		8710CFC12C01B8B700CA9F6B /* ViewGame3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGame3.swift; sourceTree = "<group>"; };
+		8710CFC32C01C9F500CA9F6B /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				8710CF822C00D44A00CA9F6B /* RokGameApp.swift */,
+				8710CFB42C00FD0100CA9F6B /* DemoView */,
 				8710CF842C00D44A00CA9F6B /* ContentView.swift */,
+				8710CFB22C00FB3700CA9F6B /* MarkGame */,
+				8710CFBC2C01B87300CA9F6B /* Game2 */,
+				8710CFC02C01B8AA00CA9F6B /* Game3 */,
 				8710CF862C00D44B00CA9F6B /* Assets.xcassets */,
 				8710CF882C00D44B00CA9F6B /* Preview Content */,
 			);
@@ -125,6 +141,64 @@
 				8710CF9F2C00D44B00CA9F6B /* RokGameUITestsLaunchTests.swift */,
 			);
 			path = RokGameUITests;
+			sourceTree = "<group>";
+		};
+		8710CFB22C00FB3700CA9F6B /* MarkGame */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFB92C01A10C00CA9F6B /* ModelMark */,
+				8710CFB32C00FBE800CA9F6B /* ViewMark */,
+			);
+			path = MarkGame;
+			sourceTree = "<group>";
+		};
+		8710CFB32C00FBE800CA9F6B /* ViewMark */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFBA2C01A14000CA9F6B /* Background.swift */,
+				8710CFC32C01C9F500CA9F6B /* AnswerButton.swift */,
+			);
+			path = ViewMark;
+			sourceTree = "<group>";
+		};
+		8710CFB42C00FD0100CA9F6B /* DemoView */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFB52C00FD1900CA9F6B /* Splash.swift */,
+				8710CFB72C00FDB200CA9F6B /* Onboarding.swift */,
+			);
+			path = DemoView;
+			sourceTree = "<group>";
+		};
+		8710CFB92C01A10C00CA9F6B /* ModelMark */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelMark;
+			sourceTree = "<group>";
+		};
+		8710CFBC2C01B87300CA9F6B /* Game2 */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFBD2C01B87B00CA9F6B /* ViewGame2 */,
+			);
+			path = Game2;
+			sourceTree = "<group>";
+		};
+		8710CFBD2C01B87B00CA9F6B /* ViewGame2 */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFBE2C01B88B00CA9F6B /* ViewGame2.swift */,
+			);
+			path = ViewGame2;
+			sourceTree = "<group>";
+		};
+		8710CFC02C01B8AA00CA9F6B /* Game3 */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFC12C01B8B700CA9F6B /* ViewGame3.swift */,
+			);
+			path = Game3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +332,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8710CF852C00D44A00CA9F6B /* ContentView.swift in Sources */,
+				8710CFC42C01C9F500CA9F6B /* AnswerButton.swift in Sources */,
+				8710CFBF2C01B88B00CA9F6B /* ViewGame2.swift in Sources */,
+				8710CFB62C00FD1900CA9F6B /* Splash.swift in Sources */,
+				8710CFC22C01B8B700CA9F6B /* ViewGame3.swift in Sources */,
+				8710CFB82C00FDB200CA9F6B /* Onboarding.swift in Sources */,
+				8710CFBB2C01A14000CA9F6B /* Background.swift in Sources */,
 				8710CF832C00D44A00CA9F6B /* RokGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
