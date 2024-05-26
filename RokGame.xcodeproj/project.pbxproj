@@ -20,6 +20,8 @@
 		8710CFBF2C01B88B00CA9F6B /* ViewGame2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFBE2C01B88B00CA9F6B /* ViewGame2.swift */; };
 		8710CFC22C01B8B700CA9F6B /* ViewGame3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFC12C01B8B700CA9F6B /* ViewGame3.swift */; };
 		8710CFC42C01C9F500CA9F6B /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFC32C01C9F500CA9F6B /* AnswerButton.swift */; };
+		8710CFC82C02B61100CA9F6B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFC72C02B61100CA9F6B /* Player.swift */; };
+		8710CFCA2C02B67F00CA9F6B /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFC92C02B67F00CA9F6B /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		8710CFBE2C01B88B00CA9F6B /* ViewGame2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGame2.swift; sourceTree = "<group>"; };
 		8710CFC12C01B8B700CA9F6B /* ViewGame3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGame3.swift; sourceTree = "<group>"; };
 		8710CFC32C01C9F500CA9F6B /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		8710CFC72C02B61100CA9F6B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8710CFC92C02B67F00CA9F6B /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				8710CFBD2C01B87B00CA9F6B /* ViewGame2 */,
+				8710CFC72C02B61100CA9F6B /* Player.swift */,
+				8710CFC92C02B67F00CA9F6B /* GameViewModel.swift */,
 			);
 			path = Game2;
 			sourceTree = "<group>";
@@ -334,10 +340,12 @@
 				8710CF852C00D44A00CA9F6B /* ContentView.swift in Sources */,
 				8710CFC42C01C9F500CA9F6B /* AnswerButton.swift in Sources */,
 				8710CFBF2C01B88B00CA9F6B /* ViewGame2.swift in Sources */,
+				8710CFCA2C02B67F00CA9F6B /* GameViewModel.swift in Sources */,
 				8710CFB62C00FD1900CA9F6B /* Splash.swift in Sources */,
 				8710CFC22C01B8B700CA9F6B /* ViewGame3.swift in Sources */,
 				8710CFB82C00FDB200CA9F6B /* Onboarding.swift in Sources */,
 				8710CFBB2C01A14000CA9F6B /* Background.swift in Sources */,
+				8710CFC82C02B61100CA9F6B /* Player.swift in Sources */,
 				8710CF832C00D44A00CA9F6B /* RokGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

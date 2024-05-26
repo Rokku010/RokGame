@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import SwiftUI
+enum Player: String{
+    case naught = "o"
+    case cross = "x"
+}

@@ -77,13 +77,13 @@ struct Backgroud: View {
     }
     
     func generateAnswers(){
-        firstNumber = Int.random(in: 0...(difficulty/3))
-        secondNumber = Int.random(in: 0...(difficulty/3))
+        firstNumber = Int.random(in: 0...(difficulty/2))
+        secondNumber = Int.random(in: 0...(difficulty/2))
         var answerList = [Int]()
         
         correctAnswers = firstNumber + secondNumber
         
-        for _ in 0...4{
+        for _ in 0...2{
             answerList.append(Int.random(in: 0...difficulty))
         }
         
